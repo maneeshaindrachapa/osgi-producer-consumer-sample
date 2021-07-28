@@ -1,12 +1,12 @@
 package org.wso2.carbon.game.producer;
 
-import org.wso2.carbon.game.producer.model.Player;
+import org.wso2.carbon.game.producer.model.Champion;
 
 import java.util.List;
 
 public interface GameProducer {
 
-    void createPlayer(String playerName, String championName);
+    void createChampion(String championName);
 
-    List<Player> listPlayers();
+    List<Champion> listChampions();
 }

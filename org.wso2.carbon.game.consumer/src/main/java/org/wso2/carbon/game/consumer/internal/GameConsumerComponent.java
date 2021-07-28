@@ -24,7 +24,7 @@ public class GameConsumerComponent {
 
         LOGGER.info("Game consumer bundle is activated");
         GameConsumer gameConsumer = new GameConsumer();
-        gameConsumer.addPlayer("Maneesha", "Zed");
+        gameConsumer.getChampionCreated( "Zed");
     }
 
     @Reference(
