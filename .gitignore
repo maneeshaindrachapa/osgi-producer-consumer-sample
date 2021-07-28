@@ -1,1 +1,4 @@
 /.idea/
+*.iml
+org.wso2.carbon.game.consumer.iml
+org.wso2.carbon.game.producer.iml
