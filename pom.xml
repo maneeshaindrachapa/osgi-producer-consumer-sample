@@ -6,7 +6,7 @@
 
     <groupId>org.wso2.carbon</groupId>
     <artifactId>game-manager</artifactId>
-    <version>v0.0.1</version>
+    <version>1.0-SNAPSHOT</version>
     <modules>
         <module>org.wso2.carbon.game.producer</module>
         <module>org.wso2.carbon.game.consumer</module>
@@ -81,8 +81,6 @@
             </plugins>
         </pluginManagement>
     </build>
-
-
     <dependencyManagement>
         <dependencies>
             <dependency>

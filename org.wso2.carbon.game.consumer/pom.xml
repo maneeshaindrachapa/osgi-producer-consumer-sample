@@ -5,7 +5,8 @@
     <parent>
         <artifactId>game-manager</artifactId>
         <groupId>org.wso2.carbon</groupId>
-        <version>v0.0.1</version>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -43,7 +44,7 @@
                         <Import-Package>
                             org.osgi.framework; version="${osgi.framework.imp.pkg.version.range}",
                             org.osgi.service.component; version="${osgi.service.component.imp.pkg.version.range}",
-                            org.wso2.carbon.game.producer.*; version="${project.version}"
+                            org.wso2.carbon.game.producer.*; version="${project.version}",
                         </Import-Package>
                     </instructions>
                 </configuration>
@@ -55,7 +56,6 @@
         <dependency>
             <groupId>org.apache.felix</groupId>
             <artifactId>org.apache.felix.scr.ds-annotations</artifactId>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.eclipse.osgi</groupId>
